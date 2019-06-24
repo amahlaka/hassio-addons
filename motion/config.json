@@ -1,7 +1,7 @@
 {
   "name": "Motion",
   "url": "https://github.com/amahlaka/hassio-addons",
-  "version": "0.5.41",
+  "version": "0.5.42",
   "slug": "motion",
   "description": "Motion addon from LINUX package https://motion-project.github.io/",
   "startup": "before",
