@@ -4,24 +4,24 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add -v -v --update \
-  apache2 \
-  apache2-utils \
-  bc \
-  coreutils \
-  curl \
-  dateutils \
-  findutils \
-  ffmpeg@edge \
-  motion@edge \
-  gawk \
-  imagemagick \
-  inotify-tools \
-  jq \
-  mosquitto-clients \
-  python3 \
-  tcsh \
-  git
+RUN apk add -v -v --update apache2
+RUN apk add -v -v --update  apache2 
+RUN apk add -v -v --update  apache2-utils 
+RUN apk add -v -v --update  bc 
+RUN apk add -v -v --update  coreutils 
+RUN apk add -v -v --update  curl 
+RUN apk add -v -v --update  dateutils 
+RUN apk add -v -v --update  findutils 
+RUN apk add -v -v --update  ffmpeg@edge 
+RUN apk add -v -v --update  motion@edge 
+RUN apk add -v -v --update  gawk 
+RUN apk add -v -v --update  imagemagick 
+RUN apk add -v -v --update  inotify-tools 
+RUN apk add -v -v --update  jq 
+RUN apk add -v -v --update  mosquitto-clients 
+RUN apk add -v -v --update  python3 
+RUN apk add -v -v --update  tcsh 
+RUN apk add -v -v --update  git
 
 ## CVSKIT
 
