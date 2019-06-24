@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache \
+RUN apk add -v -v \
   apache2 \
   apache2-utils \
   bc \
