@@ -12,8 +12,8 @@ RUN apk add -v -v --update coreutils
 RUN apk add -v -v --update curl 
 RUN apk add -v -v --update dateutils 
 RUN apk add -v -v --update findutils 
-RUN apk add -v -v --update ffmpeg 
-RUN apk add -v -v --update motion
+RUN apk add -v -v --update ffmpeg --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main
+RUN apk add -v -v --update motion --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main
 RUN apk add -v -v --update gawk 
 RUN apk add -v -v --update imagemagick 
 RUN apk add -v -v --update inotify-tools 
